@@ -15,12 +15,14 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    SidenavComponent
+    SidenavComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
